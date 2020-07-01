@@ -42,3 +42,8 @@
   flex-direction: column;
   background-color: #61dafb;
 }
+
+.red{
+  color: red;
+  font-size: 50px;
+}

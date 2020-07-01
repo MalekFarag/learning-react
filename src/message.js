@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
 
-function Message(){
+function Message({name, text}){
     return(
         <div className='msg'>
-            <h4>Name:</h4>
-            <p>Message:</p>
-            <h5>Likes: </h5>
+            <h4>{name}</h4>
+            <p>{text}</p>
         </div>
     );
 }
